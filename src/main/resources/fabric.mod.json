@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "example-addon",
+  "version": "1.0.0",
+  "name": "Example Addon",
+  "description": "A reference addon template demonstrating custom modules, commands, and events for Collective Client.",
+  "authors": [
+    "anvres56"
+  ],
+  "contact": {
+    "homepage": "https://github.com/anvres56/collective-addon-template",
+    "sources": "https://github.com/anvres56/collective-addon-template"
+  },
+  "license": "MIT",
+  "icon": "assets/example-addon/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "collective": [
+      "com.example.addon.ExampleAddon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
